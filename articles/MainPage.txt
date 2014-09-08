@@ -1,0 +1,28 @@
+*Welcome to MikiWiki!*
+
+Nothing is here yet - feel free to make your own articles.
+
+#Top level header
+##Sub header
+ * list element 1 *some italics*
+ * list element 2 **bold text**
+ * list element 3 *italics* **and bold text**
+ * list element 4 ***italics and bold at the same time!***
+ * list element 5
+
+[article link]
+
+*[italics article link]*
+
+**[bold article link]**
+
+###[article link in a header]
+
+    import sys
+    
+    sys.stdout.write('Hello World')
+    sys.exit(0)
+
+this is not code
+
+

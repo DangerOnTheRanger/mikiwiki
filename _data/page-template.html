@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>%(article_name)s - MikiWiki</title>
+<link rel="stylesheet" type="text/css" href="/_data/stylesheet.css">
+</head>
+<body>
+<h1 id="titlebar">%(article_name)s</h1>
+<hr />
+<div id="sidebar">
+<ul>
+<li><a href="/cgi-bin/miki.py">Main Page</a></li>
+<li><a href="/cgi-bin/miki.py?page=HelpEditing">Help Editing</a></li>
+<li><a href="/articles/%(article_name)s.txt">View source</a></li>
+<li><a href="/cgi-bin/miki.py?edit=%(article_name)s">Edit</a></li>
+</ul>
+</div>
+<div id="content">
+%(article_body)s
+</div>
+</body>
+</html>

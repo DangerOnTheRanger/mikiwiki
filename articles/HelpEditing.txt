@@ -1,0 +1,3 @@
+#HelpEditing
+
+Help on MikiWiki's Markdown dialect will go here eventually. For now, read the source of [MainPage].

@@ -1,0 +1,1 @@
+This page doesn't exist yet. You're going to have to <a href="/cgi-bin/miki.py?new=%(article_name)s">create it</a> first.

@@ -1,0 +1,36 @@
+#content
+{
+    float: center;
+    width: 80%;
+}
+
+#sidebar
+{
+    float: left;
+    width: 10%;
+    margin-right: 2%;
+    height: 100%;
+    background-color: LightBlue;
+}
+
+#titlebar
+{
+    background-color: LightGray;
+}
+
+#articlecontent
+{
+	width: 60em;
+	height: 50em;
+}
+
+pre
+{
+    background-color: Lavender;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: LightSlateGray;
+    color: black;
+    margin-left: 20%;
+}

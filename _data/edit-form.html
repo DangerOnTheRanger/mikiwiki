@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Edit article "%(article_name)s" - MikiWiki</title>
+<link rel="stylesheet" type="text/css" href="/_data/stylesheet.css">
+</head>
+<body>
+<h1 id="titlebar">Edit article "%(article_name)s"</h1>
+<hr />
+<span id="sidebar">
+<ul>
+<li><a href="/cgi-bin/miki.py">Main Page</a></li>
+</ul>
+</span>
+<span id="content">
+<form action="/cgi-bin/miki.py?save=%(article_name)s" method="post">
+<textarea name="articlecontent" id="articlecontent">
+%(article_content)s
+</textarea>
+<input type="submit" value="Submit">
+</form>
+</span>
+</body>
+</html>
